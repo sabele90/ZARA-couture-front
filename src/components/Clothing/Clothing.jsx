@@ -7,11 +7,7 @@ function Clothing({ item }) {
     return (
       <div key={item.id} className={`container-item-${item.id}`}>
         <Link to={`/customize/${item.id}/${encodeURIComponent(item.image1)}`}>
-          <img
-            className={`clothing-image-${item.id}`}
-            src={item.image1}
-            onMouseOver={(e) => e.preventDefault()}
-          />
+          <img className={`clothing-image-${item.id}`} src={item.image1} />
         </Link>
       </div>
     );
