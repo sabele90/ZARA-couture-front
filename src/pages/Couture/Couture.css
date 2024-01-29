@@ -1,0 +1,99 @@
+.body-couture {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.video-logo {
+  margin-top: -10rem;
+  object-position: 60% -30%;
+  object-fit: cover;
+  width: 100vw;
+  height: 34rem;
+}
+.row-0 {
+  display: flex;
+  width: 100%;
+  height: 60rem;
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  height: 75rem;
+}
+.image-atelier-1 {
+  height: 100%;
+  width: 70%;
+}
+.image-atelier-2 {
+  width: 30%;
+  height: 100%;
+}
+.row-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.row-4 {
+  width: 45rem;
+  height: 35rem;
+}
+.suit-buttons {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 10% 30%;
+}
+
+@media (max-width : 740px) {
+    .body-couture {
+        margin-top: 9rem;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+      }
+      .video-logo {
+     margin-top: 10rem;
+        object-position: 60% -30%;
+        object-fit: cover;
+        width: 100vw;
+        height: 34rem;
+      }
+      .video-1{
+        width: 13rem;
+      }
+      .row-0 {
+        display: flex;
+        width: 100%;
+        height: 18rem;
+      }
+      .row-1 {
+        display: flex;
+        flex-direction: row;
+        height: 75rem;
+      }
+      .image-atelier-1 {
+        height: 100%;
+        width: 70%;
+      }
+      .image-atelier-2 {
+        width: 30%;
+        height: 100%;
+      }
+      .row-3 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+      .row-4 {
+        width: 45rem;
+        height: 35rem;
+      }
+      .suit-buttons {
+  display: none;
+      }
+      
+
+}

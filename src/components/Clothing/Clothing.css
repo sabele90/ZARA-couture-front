@@ -1,0 +1,85 @@
+.container-item-1 {
+  width: 60%;
+  height: 60rem;
+  position: relative;
+}
+.clothing-image-1 {
+  object-fit: cover;
+  object-position: 20% 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.container-item-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.clothing-image-2 {
+  object-fit: cover;
+  object-position: 20% 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.container-item-3 {
+  width: 50%;
+  height: 100%;
+}
+.clothing-image-3 {
+  width: 50rem;
+  height: 100%;
+}
+
+.container-item-4 {
+  position: relative;
+  height: 100%;
+}
+.clothing-image-4 {
+  position: absolute;
+  width: 70rem;
+  height: 110.25rem;
+}
+
+@media (max-width : 740px) {
+  .container-item-1 {
+    height: 30rem;
+    position: relative;
+  }
+  .clothing-image-1 {
+    object-fit: cover;
+    object-position: 20% 5%;
+    width: 100%;
+    height: 18rem;
+  }
+  .container-item-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .clothing-image-2 {
+    object-fit: cover;
+    object-position: 20% 5%;
+    width: 100%;
+    height: 100%;
+  }
+  .container-item-3 {
+    width: 50%;
+    height: 100%;
+  }
+  .clothing-image-3 {
+    width: 25rem;
+    height: 100%;
+  }
+  .container-item-4 {
+    position: relative;
+    height: 100%;
+  }
+  .clothing-image-4 {
+    position: absolute;
+    width: 10rem;
+    height: 25rem;
+  }
+
+
+}

@@ -1,0 +1,62 @@
+.payment{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20rem;
+    margin-left: 10rem; 
+}
+.form-row{
+    display: flex;
+    gap: 2rem;
+}
+
+  .input-payment {
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid #495057; 
+    outline: none; 
+    width: 15%; 
+    font-size: 16px; 
+    color: #495057; 
+    margin-bottom: 2rem;
+  }
+  .input-name {
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid #495057; 
+    outline: none; 
+    width: 15%; 
+    font-size: 16px; 
+    color: #495057;
+  
+  }
+  .input-cvc{
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid #495057; 
+    outline: none; 
+    width: 3%; 
+    font-size: 16px; 
+    color: #495057; 
+  }
+  .total-row{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+  }
+  .total{
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    border: 1px solid black;
+    width: 100%;
+  }
+  .continue{
+    font-size: 14px;
+    padding: 2rem;
+    background-color: black;
+    color:white;
+  }

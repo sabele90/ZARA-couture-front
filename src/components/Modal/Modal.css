@@ -1,0 +1,87 @@
+.window-modal{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    width: 30vw;
+    height: 65vh;
+    background-color:white;
+    border: 1px solid black;
+}
+.header-container-text-modal{
+margin-left: -4rem;
+font-family: 'Bodoni Moda', serif;
+}
+.header-text-z-modal{
+    position: absolute;
+    color: black;
+    margin-top:-6rem;
+    margin-left: 6rem;
+    font-size: 9rem;
+}
+.header-text-a-modal{
+    position: absolute;
+    color: black;
+    margin-top:-6rem;
+    margin-left: 8.5rem;
+    font-size: 9rem;
+}
+.header-text-r-modal{
+    position: absolute;
+    color: black;
+    margin-top:-6rem;
+    margin-left: 13rem;
+    font-size: 9rem;
+}
+.header-text-a-a-modal{
+    position: absolute;
+    color: black;
+    margin-top:-6rem;
+    margin-left: 16rem;
+    font-size: 9rem;
+}
+.zara-options-modal{
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.custom-line {
+    margin-top: 8rem;
+    width: 100%;
+    border: 0.5px solid black; 
+
+  }
+.zara-options{
+
+    width: 100%;
+}
+  .button-option {
+    background-color: white;
+    font-size: 0.7rem;
+    border: 1px solid black;
+   margin-top: 1rem;
+   margin-right: 1rem;
+    align-self: flex-end; 
+    text-decoration: none;
+    align-self: flex-end; 
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .button-row{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end; 
+     text-align: center;
+  }
+
+  .link-style{
+    text-decoration: none;
+ 
+
+  }
